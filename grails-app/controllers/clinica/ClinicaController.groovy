@@ -30,6 +30,29 @@ class ClinicaController extends clinica.seguridad.Shield {
         return [clinicaInstance: clinicaInstance]
     } //form_ajax
 
+    def save_ajax() {
+        println "save ajax " + params
+        def clinicaInstance
+        if (params.id) {
+            clinicaInstance = Clinica.get(params.id)
+            if (!clinicaInstance) {
+                render "NO_No se encontró clínica para guardar los datos"
+                return
+            }//no existe el objeto
+            clinicaInstance.properties = params
+        } else {
+            render "NO_No se encontró clínica para guardar los datos"
+            return
+        }
+        if (!clinicaInstance.save(flush: true)) {
+            def str = "<h4>No se pudo guardar Clinica " + (clinicaInstance.id ? clinicaInstance.id : "") + "</h4>"
+            str += renderErrors(bean: clinicaInstance)
+            render "NO_" + str
+            return
+        }
+        render "OK_Se ha actualizado correctamente la clínica"
+    }
+
     def save() {
         def clinicaInstance
         if (params.id) {

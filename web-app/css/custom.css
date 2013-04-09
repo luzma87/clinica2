@@ -68,7 +68,7 @@ th.desc {
 }
 
 td.dblclick {
-    background-image : url(../images/skin/dblclick.png) !important;
+    background : url(../images/skin/mouse.png) right no-repeat;
 }
 
 .ui-front {

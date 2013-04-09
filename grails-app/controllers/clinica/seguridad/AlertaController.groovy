@@ -43,9 +43,4 @@ class AlertaController extends Shield {
 
         return [clinicas: clinicas, pagosVencidos: pagosVencidos, pagosDias: pagosDias, pagosMes: pagosMes, params: params]
     }
-
-    def contar() {
-        
-    }
-
 }
