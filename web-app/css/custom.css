@@ -1,0 +1,116 @@
+body {
+    padding-top : 60px !important; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th, tr.selected {
+    background-color : #AED1E2;
+}
+
+th {
+    text-align : center !important;
+    background : #42ACE9;
+    color      : #ffffff;
+}
+
+th.sortable {
+    background-position : right;
+    background-repeat   : no-repeat;
+    background-image    : url(../images/skin/upDown.png);
+    padding-right       : 1.1em;
+    color               : #ffffff !important;
+}
+
+th a {
+    color : #ffffff !important;
+}
+
+th.asc {
+    background-image : url(../images/skin/up.png);
+}
+
+th.desc {
+    background-image : url(../images/skin/down.png);
+}
+
+.ui-widget {
+    font-family : Lucida Grande, Lucida Sans, Arial, sans-serif;
+    font-size   : 11px;
+    line-height : 11px;
+}
+
+.lbl {
+    font-weight : bold;
+    color       : #03407B;
+}
+
+.label-info,
+.badge-info {
+    background-color : #9E6CB8;
+}
+
+.label-info[href],
+.badge-info[href] {
+    background-color : #794D91;
+}
+
+.highlight {
+    background-color : #ffe600;
+    color            : #000000;
+}
+
+.datepicker {
+    background : url(../images/skin/calendar.png) right no-repeat;
+}
+
+.autocomplete {
+    background : url(../images/skin/autocomplete.png) right no-repeat;
+}
+
+td.dblclick {
+    background-image : url(../images/skin/dblclick.png) !important;
+}
+
+.ui-front {
+    z-index : 99999;
+}
+
+.thumb {
+    border : 3px solid #4D85A6;
+    width  : 100px;
+}
+
+.mini.thumb {
+    border-width : 2px;
+    width        : 50px;
+}
+
+.img {
+    text-align : center;
+    width      : 110px;
+}
+
+.taRight {
+    text-align : right !important;
+}
+
+.taCenter {
+    text-align : center !important;
+}
+
+.table.small {
+    width  : 50% !important;
+    margin : 0 !important;
+}
+
+.completo, .completo td {
+    background : #BCD6BC !important;
+}
+
+.incompleto, .incompleto td {
+    /*background : blue !important;*/
+}
+
+#liAlertas {
+    background : #034585;
+}

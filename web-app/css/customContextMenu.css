@@ -1,0 +1,40 @@
+.context-menu-list {
+    z-index : 10 !important;
+}
+
+.context-menu-item.disabled {
+    background-color : #D8D8D8;
+    color            : #A5A5A5;
+}
+
+.context-menu-item.mn-icon-show {
+    background-image : url(../images/contextMenu/zoom.png);
+}
+
+.context-menu-item.mn-icon-key {
+    background-image : url(../images/contextMenu/key.png);
+}
+
+.context-menu-item.mn-icon-examen {
+    background-image : url(../images/contextMenu/clipboard.png);
+}
+
+.context-menu-item.mn-icon-cirugia {
+    background-image : url(../images/contextMenu/scalpel.png);
+}
+
+.context-menu-item.mn-icon-alergia {
+    background-image : url(../images/contextMenu/allergy_vials.png);
+}
+
+.context-menu-item.mn-icon-control {
+    background-image : url(../images/contextMenu/stethoscope.png);
+}
+
+.context-menu-item.mn-icon-deletePic {
+    background-image : url(../images/contextMenu/photo_delete.png);
+}
+
+.context-menu-item.mn-icon-money {
+    background-image : url(../images/contextMenu/money.png);
+}
