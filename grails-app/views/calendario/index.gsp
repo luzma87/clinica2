@@ -75,6 +75,7 @@
             $(function () {
 
                 $(".fancybox").fancybox({
+                    type    : 'ajax',
                     helpers : {
                         overlay : {
                             css : {

@@ -158,6 +158,63 @@ class ElementosTagLib {
         out << html
     }
 
+    def mostrarImagen = { attrs ->
+//        println attrs
+        def path = attrs.url
+
+        def pathImgs = servletContext.getRealPath("/") + "imgs/"  //web-app/imgs
+
+        def parts = path.split("\\?")
+        path = parts[0]
+        def w, h
+
+        parts = path.split("/")
+        def fileName = parts.last()
+        def pathFolder = parts[3] + "/" + parts[4] + "/" + parts[5] + "/"
+
+        parts = fileName.split("\\.")
+        def overlayFileName = parts[0] + "_overlay.png"
+
+        def img = ImageIO.read(new File(pathImgs + pathFolder + fileName));
+        def image = new File(pathImgs + pathFolder + fileName)
+        def overlay = new File(pathImgs + pathFolder + overlayFileName)
+        def ow = img.getWidth()
+        def oh = img.getHeight()
+
+        println image
+        println overlay
+
+        w = ow
+        h = oh
+
+        if (attrs.width && attrs.height) {
+            w = attrs.width
+            h = attrs.height
+        } else if (attrs.width) {
+            w = attrs.width
+            h = (w * oh) / ow
+        } else if (attrs.height) {
+            h = attrs.height
+            w = (ow * h) / oh
+        }
+
+        fileName = resource(dir: 'imgs/' + pathFolder, file: fileName)
+        overlayFileName = resource(dir: 'imgs/' + pathFolder, file: overlayFileName)
+        def html = ""
+        if (image.exists()) {
+            html = "<div style='position: relative; width:${w}px; height:${h}px;'>"
+            html += "<img width='${w}' src='${fileName}' style='position: absolute; top:0; left:0; z-index:1;' class='" + attrs["class"] + "' " + attrs.extra + " />"
+            if (overlay.exists()) {
+                html += "<img width='${w}' src='${overlayFileName}' style='position: absolute; top:0; left:0; z-index:2;' class='" + attrs["class"] + "' " + attrs.extra + " />"
+            }
+        }
+        html += "</div>"
+
+//        println html
+
+        out << html
+    }
+
     def imagenCirugia = { attrs ->
         def usu = Usuario.get(session.user.id)
         def cirugia = attrs.cirugia
@@ -177,12 +234,18 @@ class ElementosTagLib {
             dir.eachFile(FileType.FILES) { f ->
                 if (f.exists()) {
                     def file = f.getName()
-                    def img = "<img src='" + resource(dir: 'imgs/' + nombreCarpeta, file: file) + "' class='thumb " + attrs["class"] + " ui-corner-all' data-file='" + file + "' data-tipo='" + tipo + "' />"
+                    if (!file.contains("overlay")) {
+                        //def img = "<img src='" + resource(dir: 'imgs/' + nombreCarpeta, file: file) + "' class='thumb " + attrs["class"] + " ui-corner-all' data-file='" + file + "' data-tipo='" + tipo + "' />"
 
-                    if ((attrs.fancy && attrs.fancy == "true") || !attrs.fancy) {
-                        out << "<a href='" + resource(dir: 'imgs/' + nombreCarpeta, file: file) + "' class='fancybox' rel='" + group + "' title='" + tipo.capitalize() + "'>" + img + "</a>"
-                    } else {
-                        out << img
+                        def img = mostrarImagen(url: resource(dir: 'imgs/' + nombreCarpeta, file: file), width: 100, class: "thumb " + attrs["class"] + " ui-corner-all", extra: "data-file='${file}' data-tipo='${tipo}'")
+
+                        if ((attrs.fancy && attrs.fancy == "true") || !attrs.fancy) {
+//                            out << "<a href='" + resource(dir: 'imgs/' + nombreCarpeta, file: file) + "' class='fancybox' rel='" + group + "' title='" + tipo.capitalize() + "'>" + img + "</a>"
+
+                            out << "<a href='" + createLink(controller: 'cirugia', action: 'mostrarFoto', params: [url: resource(dir: 'imgs/' + nombreCarpeta, file: file)]) + "' class='fancybox' rel='" + group + "' title='" + tipo.capitalize() + "'>" + img + "</a>"
+                        } else {
+                            out << img
+                        }
                     }
                 }
             }

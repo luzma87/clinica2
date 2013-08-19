@@ -70,7 +70,7 @@
             /*width : 50px;*/
             /*}*/
 
-        .btn-group-vertical {
+        .btn-group-vertical, .vert {
             float   : right;
             z-index : 999;
         }
@@ -106,44 +106,56 @@
 
         <elm:datosPaciente paciente="${cirugia.paciente}" cirugia="${cirugia}"/>
 
-        <div class="btn-group btn-group-vertical">
-            <a href="#" class="btn btn-large tool" data-tool="pencil" title="Pencil">
-                <i class="icon-pencil icon-2x"></i>
-            </a>
+        <div class="vert">
+            <div>
+                &nbsp;&nbsp;
+                Lápiz
+                &nbsp;&nbsp;
+                Fondo
+            </div>
+            <input type='text' class="colorpicker" data-tipo="line" title="Color lápiz"/>
+            <input type='text' class="colorpicker" data-tipo="fill" title="Color fondo"/>
+
+            <div style="margin-top: 10px;">Grosor: <span id="spWidth"></span></div>
+
+            <div id="slider" style="height: 150px; margin-left: 15px;"></div>
         </div>
 
-        <div class="btn-group btn-group-vertical">
-            <a href="#" class="btn btn-large tool" data-tool="pencil" title="Pencil">
+        <div class="btn-group" style="margin-bottom: 10px;">
+            <a href="#" class="btn" title="Guardar" id="save">
+                <i class="icon-save icon-2x"></i>
+            </a>
+            <a href="#" class="btn tool" data-tool="pencil" title="Lápiz">
                 <i class="icon-pencil icon-2x"></i>
             </a>
-            <a href="#" class="btn btn-large tool" data-tool="line" title="Line">
+            <a href="#" class="btn  tool" data-tool="line" title="Línea">
                 <i class="icon-resize-horizontal icon-2x"></i>
             </a>
-            <a href="#" class="btn  btn-large tool" data-tool="square" title="Square">
+            <a href="#" class="btn  tool" data-tool="square" title="Cuadrado">
                 <span class=" icon-stack">
                     <i class="icon-check-empty icon-stack-base"></i>
                     <i class="icon-ok"></i>
                 </span>
             </a>
-            <a href="#" class="btn btn-large  tool" data-tool="rectangle" title="Rectangle">
+            <a href="#" class="btn   tool" data-tool="rectangle" title="Rectángulo">
                 <i class="icon-unchecked icon-2x"></i>
             </a>
-            <a href="#" class="btn btn-large  tool" data-tool="circle" title="Circle">
+            <a href="#" class="btn   tool" data-tool="circle" title="Círculo">
                 <span class=" icon-stack">
                     <i class="icon-circle-blank icon-stack-base"></i>
                     <i class="icon-ok"></i>
                 </span>
             </a>
-            <a href="#" class="btn  btn-large tool" data-tool="oval" title="Oval">
+            <a href="#" class="btn   tool" data-tool="oval" title="Óvalo">
                 <i class="icon-circle-blank icon-2x"></i>
             </a>
-            <a href="#" class="btn btn-large  erase" data-tool="eraser" title="Eraser">
+            <a href="#" class="btn   erase" data-tool="eraser" title="Borrador">
                 <i class="icon-eraser icon-2x"></i>
             </a>
-            <a href="#" class="btn  btn-large tool" data-tool="text" title="Text">
+            <a href="#" class="btn   tool" data-tool="text" title="Texto">
                 <i class="icon-font icon-2x"></i></a>
 
-            <a href="#" class="btn btn-large  filled" data-fill="fill" title="Not filled">
+            <a href="#" class="btn   filled" data-fill="fill" title="Vacío">
                 <i class="icon-bell icon-2x"></i>
             </a>
         </div>
@@ -178,6 +190,59 @@
 
         <script type="text/javascript" src="${resource(dir: 'js', file: 'paint.js')}"></script>
         <script type="text/javascript">
+            $('.btn').tooltip();
+
+            setOverlay("${overlay}");
+
+            $("#save").click(function () {
+                var dataURL = canvas.toDataURL();
+                $.ajax({
+                    type : "POST",
+                    url  : "${createLink(action:'saveEditedPic')}",
+                    data : {
+                        id   : "${cirugia.id}",
+                        path : "${path}",
+                        img  : dataURL
+                    }
+                }).done(function (o) {
+                            console.log('saved');
+                        });
+                return false;
+            });
+
+            $(".colorpicker").spectrum({
+                color           : "red",
+                localStorageKey : "colores",
+                cancelText      : "cancelar",
+                chooseText      : "OK",
+                change          : function (color) {
+                    var tipo = $(this).data("tipo");
+                    switch (tipo) {
+                        case "line":
+                            line = color.toHexString();
+                            break;
+                        case "fill":
+                            fill = color.toHexString();
+                            break;
+                    }
+                    changeColors();
+//                    console.log(color.toHexString()); // #ff0000
+                }
+            });
+            $("#spWidth").text(getPencilSize());
+            $("#slider").slider({
+                orientation : "vertical",
+                value       : getPencilSize(),
+                min         : 1,
+                max         : 100,
+                step        : 1,
+                slide       : function (event, ui) {
+//                    $("#amount").val("$" + ui.value);
+                    $("#spWidth").text(ui.value);
+                    changePencilSize(ui.value);
+                }
+            });
+
             $(".save").click(function () {
                 var dataURL = canvas.toDataURL("image/png");
                 if (!window.open(dataURL)) {
@@ -227,9 +292,9 @@
 
             $(".filled").click(function () {
                 if (filled) {
-                    $(this).html('<i class="icon-bell icon-2x"></i>').attr("title", "Not filled");
+                    $(this).html('<i class="icon-bell icon-2x"></i>').attr("title", "Vacío");
                 } else {
-                    $(this).html('<i class="icon-bell-alt icon-2x"></i>').attr("title", "Filled");
+                    $(this).html('<i class="icon-bell-alt icon-2x"></i>').attr("title", "Lleno");
                 }
                 filled = !filled;
                 return false;

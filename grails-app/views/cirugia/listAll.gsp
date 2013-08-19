@@ -45,15 +45,15 @@
         </g:form>
 
         %{--<div class="btn-group" role="navigation" data-toggle="buttons-checkbox">--}%
-            %{--<a href="#" class="btn btn-small btn-info toggle ${params.old == '1' ? 'active' : ''}" id="old">--}%
-                %{--Anteriores--}%
-            %{--</a>--}%
-            %{--<a href="#" class="btn btn-small btn-info toggle ${params.today == '1' ? 'active' : ''}" id="today">--}%
-                %{--Hoy--}%
-            %{--</a>--}%
-            %{--<a href="#" class="btn btn-small btn-info toggle ${params.future == '1' ? 'active' : ''}" id="future">--}%
-                %{--Futuros--}%
-            %{--</a>--}%
+        %{--<a href="#" class="btn btn-small btn-info toggle ${params.old == '1' ? 'active' : ''}" id="old">--}%
+        %{--Anteriores--}%
+        %{--</a>--}%
+        %{--<a href="#" class="btn btn-small btn-info toggle ${params.today == '1' ? 'active' : ''}" id="today">--}%
+        %{--Hoy--}%
+        %{--</a>--}%
+        %{--<a href="#" class="btn btn-small btn-info toggle ${params.future == '1' ? 'active' : ''}" id="future">--}%
+        %{--Futuros--}%
+        %{--</a>--}%
         %{--</div>--}%
 
         <elm:barraTiempo future="${params.future}" today="${params.today}" old="${params.old}"/>
@@ -136,6 +136,7 @@
 
             $(function () {
                 $(".fancybox").fancybox({
+                    type    : 'ajax',
                     helpers : {
                         overlay : {
                             css : {
@@ -250,6 +251,15 @@
                             }
                         },
                         "sep1"      : "---------",
+                        "showPic"   : {
+                            name     : "Ver fotos",
+                            icon     : "showPic",
+                            callback : function (key, options) {
+                                var row = options.$trigger;
+                                var id = row.attr("id");
+                                location.href = "${createLink(action:'showPics')}/" + id;
+                            }
+                        },
                         "deletePic" : {
                             name     : "Eliminar fotos",
                             icon     : "deletePic",

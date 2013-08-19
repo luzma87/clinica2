@@ -9,6 +9,8 @@ import org.springframework.dao.DataIntegrityViolationException
 import javax.imageio.ImageIO
 import java.awt.image.BufferedImage
 
+import sun.misc.BASE64Decoder
+
 class CirugiaController extends clinica.seguridad.Shield {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
@@ -55,7 +57,42 @@ class CirugiaController extends clinica.seguridad.Shield {
     def editPic() {
         def cirugia = Item.get(params.id)
         def path = params.path
-        return [cirugia: cirugia, path: path]
+        def pathOverlay = ""
+        if (path.contains("overlay")) {
+            pathOverlay = path
+            path = path.replaceAll("_overlay\\.png", "\\.jpg")
+        }
+        return [cirugia: cirugia, path: path, overlay: pathOverlay]
+    }
+
+    def mostrarFoto() {
+        render elm.mostrarImagen(params)
+    }
+
+    def saveEditedPic() {
+        def cirugia = Item.get(params.id)
+        def path = params.path
+
+        def img = params.img.replace('data:image/png;base64,', '')
+
+        def pathImg = servletContext.getRealPath("/") + "imgs"  //web-app/imgs
+
+        def parts = path.split("\\?")
+        path = parts[0]
+        parts = path.split("/")
+        def fileName = parts.last()
+        def pathFolder = pathImg + "/" + parts[3] + "/" + parts[4] + "/" + parts[5] + "/"
+
+        parts = fileName.split("\\.")
+        fileName = parts[0] + "_overlay.png"
+
+        byte[] btDataFile = new BASE64Decoder().decodeBuffer(img);
+        File of = new File(pathFolder + fileName);
+        FileOutputStream osf = new FileOutputStream(of);
+        osf.write(btDataFile);
+        osf.flush();
+
+        render "OK"
     }
 
     def list() {
