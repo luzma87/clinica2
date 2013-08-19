@@ -78,7 +78,7 @@ environments {
             dbCreate = "update"
             url = "jdbc:postgresql://127.0.0.1:5432/clinica2"
             username = "postgres"
-            password = "svt2579"
+            password = "postgres"
         }
     }
 }

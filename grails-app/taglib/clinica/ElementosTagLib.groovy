@@ -226,14 +226,31 @@ class ElementosTagLib {
         def str = ""
         def paciente = attrs.paciente
         str += '<div class="well">'
+        str += '<div class="row">'
         str += '<div class="span1 lbl">Paciente</div>'
         str += '<div class="span3">' + paciente.apellidos + ' ' + paciente.nombres + '</div>'
         str += '<div class="span1 lbl">C&eacute;dula</div>'
         str += '<div class="span2">' + paciente.cedula + '</div>'
         str += '<div class="span1 lbl">Edad</div>'
         str += '<div class="span3">' + elm.edad(paciente: paciente) + '</div>'
+        str += '</div>'
 //        def fn = paciente.fechaNacimiento.format("yyyy") + "," + (paciente.fechaNacimiento.format("MM").toInteger() - 1) + "," + paciente.fechaNacimiento.format("dd")
 //        str += '<div class="span3"><span class="edad" data-nacimiento="' + fn + '"></span></div>'
+
+        if (attrs.cirugia) {
+            def cirugia = attrs.cirugia
+            str += '<div class="row" style="margin-top:10px;">'
+            str += '<div class="span1 lbl">Fecha</div>'
+            str += '<div class="span2">' + cirugia.fecha.format("dd-MM-yyyy HH:mm") + '</div>'
+            str += '<div class="span1 lbl">Duración</div>'
+            str += '<div class="span1">' + (cirugia.duracionHoras.toString().padLeft(2, '0') + ":" + cirugia.duracionMinutos.toString().padLeft(2, '0')) + '</div>'
+            str += '<div class="span1 lbl">Clínica</div>'
+            str += '<div class="span2">' + cirugia.clinica?.nombre + '</div>'
+            str += '<div class="span1 lbl">Razón</div>'
+            str += '<div class="span2">' + cirugia.razon + '</div>'
+            str += '</div>'
+        }
+
         str += '</div>'
 
         out << str

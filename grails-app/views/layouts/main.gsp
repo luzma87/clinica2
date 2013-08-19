@@ -22,7 +22,8 @@
         <link href="${resource(dir: 'css/bootstrap/css', file: 'bootstrap_cerulean.css')}" rel="stylesheet">
         <link href="${resource(dir: 'css/bootstrap/css', file: 'bootstrap-responsive.css')}" rel="stylesheet">
 
-        <link href="${resource(dir: 'css/fontawsome/css', file: 'font-awesome.css')}" rel="stylesheet">
+        %{--<link href="${resource(dir: 'css/fontawsome/css', file: 'font-awesome.css')}" rel="stylesheet">--}%
+        <link href="${resource(dir: 'font-awesome/css', file: 'font-awesome.css')}" rel="stylesheet">
 
         <link href="${resource(dir: 'css', file: 'mobile.css')}" rel="stylesheet">
         <script src="${resource(dir: 'js/jquery/plugins', file: 'jquery-highlight.js')}"></script>
@@ -172,8 +173,6 @@
                         $sp.html(d + " d&iacute;a" + (d == 1 ? "" : "s"));
                     }
                 });
-
-
 
             });
         </script>

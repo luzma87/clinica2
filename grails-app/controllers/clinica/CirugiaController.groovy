@@ -47,6 +47,17 @@ class CirugiaController extends clinica.seguridad.Shield {
         render "OK"
     }
 
+    def showPics() {
+        def cirugia = Item.get(params.id)
+        return [cirugia: cirugia]
+    }
+
+    def editPic() {
+        def cirugia = Item.get(params.id)
+        def path = params.path
+        return [cirugia: cirugia, path: path]
+    }
+
     def list() {
         def paciente = Paciente.get(params.id)
         return [cirugiaInstanceList: Item.findAllByPacienteAndTipoItem(paciente, TipoItem.findByCodigo("I"), params), params: params, paciente: paciente]
@@ -162,7 +173,7 @@ class CirugiaController extends clinica.seguridad.Shield {
     } //form_ajax
 
     def upload(f, path) {
-        path += "\\"
+//        path += "\\"
 //        println path
         def acceptedExt = ["jpg", "jpeg", "png"]
         if (f && !f.empty) {

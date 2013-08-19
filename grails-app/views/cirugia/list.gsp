@@ -54,8 +54,9 @@
                         <g:sortableColumn property="duracionHoras" title="Duraci&oacute;n" style="width:63px;"/>
                         <g:sortableColumn property="clinica" title="Clínica" style="width:200px;"/>
                         <g:sortableColumn property="razon" title="Razón"/>
-                        <g:sortableColumn property="fotoAntes" title="Foto Antes"/>
-                        <g:sortableColumn property="fotoDespues" title="Foto Después"/>
+                        <th>Fotos antes</th>
+                        <th>Fotos después</th>
+
                     </tr>
                 </thead>
                 <tbody class="paginate">
@@ -228,6 +229,15 @@
                             }
                         },
                         "sep1"      : "---------",
+                        "showPic"   : {
+                            name     : "Ver fotos",
+                            icon     : "showPic",
+                            callback : function (key, options) {
+                                var row = options.$trigger;
+                                var id = row.attr("id");
+                                location.href = "${createLink(action:'showPics')}/" + id;
+                            }
+                        },
                         "deletePic" : {
                             name     : "Eliminar fotos",
                             icon     : "deletePic",
@@ -257,6 +267,7 @@
                                 });
                             }
                         },
+                        "sep2"      : "---------",
                         "delete"    : {
                             name     : "Eliminar",
                             icon     : "delete",

@@ -16,7 +16,8 @@
         <link href="${resource(dir: 'css/bootstrap/css', file: 'bootstrap_cerulean.css')}" rel="stylesheet">
         <link href="${resource(dir: 'css/bootstrap/css', file: 'bootstrap-responsive.css')}" rel="stylesheet">
 
-        <link href="${resource(dir: 'css/fontawsome/css', file: 'font-awesome.css')}" rel="stylesheet">
+        %{--<link href="${resource(dir: 'css/fontawsome/css', file: 'font-awesome.css')}" rel="stylesheet">--}%
+        <link href="${resource(dir: 'font-awesome/css', file: 'font-awesome.css')}" rel="stylesheet">
 
         <link href="${resource(dir: 'js/jquery/css/overcast', file: 'jquery-ui.css')}" rel="stylesheet">
         <script src="${resource(dir: 'js/jquery/plugins/jquery-validation-1.10', file: 'jquery.validate.min.js')}"></script>

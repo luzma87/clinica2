@@ -31,6 +31,14 @@
     background-image : url(../images/contextMenu/stethoscope.png);
 }
 
+.context-menu-item.mn-icon-showPic {
+    background-image : url(../images/contextMenu/photo.png);
+}
+
+.context-menu-item.mn-icon-editPic {
+    background-image : url(../images/contextMenu/photo_edit.png);
+}
+
 .context-menu-item.mn-icon-deletePic {
     background-image : url(../images/contextMenu/photo_delete.png);
 }

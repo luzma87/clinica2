@@ -31,7 +31,7 @@ class ClinicaController extends clinica.seguridad.Shield {
     } //form_ajax
 
     def save_ajax() {
-        println "save ajax " + params
+//        println "save ajax " + params
         def clinicaInstance
         if (params.id) {
             clinicaInstance = Clinica.get(params.id)
