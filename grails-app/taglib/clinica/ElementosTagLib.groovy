@@ -181,9 +181,6 @@ class ElementosTagLib {
         def ow = img.getWidth()
         def oh = img.getHeight()
 
-        println image
-        println overlay
-
         w = ow
         h = oh
 
@@ -192,7 +189,7 @@ class ElementosTagLib {
             h = attrs.height
         } else if (attrs.width) {
             w = attrs.width
-            h = (w * oh) / ow
+            h = ((w * oh) / ow) + 5
         } else if (attrs.height) {
             h = attrs.height
             w = (ow * h) / oh
@@ -229,6 +226,11 @@ class ElementosTagLib {
         def path = servletContext.getRealPath("/") + "imgs/"  //web-app/imgs
         path += nombreCarpeta
 
+        def w = 100
+        if (attrs['class'] == "mini") {
+            w = 50
+        }
+
         def dir = new File(path)
         if (dir.exists()) {
             dir.eachFile(FileType.FILES) { f ->
@@ -237,7 +239,7 @@ class ElementosTagLib {
                     if (!file.contains("overlay")) {
                         //def img = "<img src='" + resource(dir: 'imgs/' + nombreCarpeta, file: file) + "' class='thumb " + attrs["class"] + " ui-corner-all' data-file='" + file + "' data-tipo='" + tipo + "' />"
 
-                        def img = mostrarImagen(url: resource(dir: 'imgs/' + nombreCarpeta, file: file), width: 100, class: "thumb " + attrs["class"] + " ui-corner-all", extra: "data-file='${file}' data-tipo='${tipo}'")
+                        def img = mostrarImagen(url: resource(dir: 'imgs/' + nombreCarpeta, file: file), width: w, class: "thumb " + attrs["class"] + " ui-corner-all", extra: "data-file='${file}' data-tipo='${tipo}'")
 
                         if ((attrs.fancy && attrs.fancy == "true") || !attrs.fancy) {
 //                            out << "<a href='" + resource(dir: 'imgs/' + nombreCarpeta, file: file) + "' class='fancybox' rel='" + group + "' title='" + tipo.capitalize() + "'>" + img + "</a>"

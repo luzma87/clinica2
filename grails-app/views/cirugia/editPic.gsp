@@ -111,14 +111,18 @@
                 &nbsp;&nbsp;
                 Lápiz
                 &nbsp;&nbsp;
-                Fondo
+                Fondo/Texto
             </div>
             <input type='text' class="colorpicker" data-tipo="line" title="Color lápiz"/>
             <input type='text' class="colorpicker" data-tipo="fill" title="Color fondo"/>
 
-            <div style="margin-top: 10px;">Grosor: <span id="spWidth"></span></div>
+            <div style="margin-top: 10px;">Grosor línea: <span id="spWidth"></span></div>
 
             <div id="slider" style="height: 150px; margin-left: 15px;"></div>
+
+            <div style="margin-top: 10px;">Tamaño texto: <span id="spTextSize"></span></div>
+
+            <div id="sliderText" style="height: 150px; margin-left: 15px;"></div>
         </div>
 
         <div class="btn-group" style="margin-bottom: 10px;">
@@ -188,11 +192,17 @@
             %{--</div>--}%
         </div>
 
+        <a href="#" id="fontSize">Font</a>
+
         <script type="text/javascript" src="${resource(dir: 'js', file: 'paint.js')}"></script>
         <script type="text/javascript">
             $('.btn').tooltip();
 
             setOverlay("${overlay}");
+
+            $("#fontSize").click(function () {
+                $("#text_tool").css("font-size", 20);
+            });
 
             $("#save").click(function () {
                 var dataURL = canvas.toDataURL();
@@ -223,6 +233,7 @@
                             break;
                         case "fill":
                             fill = color.toHexString();
+                            $("#text_tool").css("color", color.toHexString());
                             break;
                     }
                     changeColors();
@@ -240,6 +251,18 @@
 //                    $("#amount").val("$" + ui.value);
                     $("#spWidth").text(ui.value);
                     changePencilSize(ui.value);
+                }
+            });
+            $("#spTextSize").text(14);
+            $("#sliderText").slider({
+                orientation : "vertical",
+                value       : 14,
+                min         : 10,
+                max         : 150,
+                step        : 1,
+                slide       : function (event, ui) {
+                    $("#text_tool").css("font-size", ui.value);
+                    $("#spTextSize").text(ui.value);
                 }
             });
 

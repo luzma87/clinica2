@@ -5,111 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190a0302-f2ab-4e5e-87fb-3b7222139a91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/contextMenu/photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/contextMenu/photo_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/build/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/_extras.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/_extras.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/docs/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/docs/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/docs/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/example/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/extras.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/extras.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/font-awesome-ie7.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/font-awesome-ie7.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/font-awesome-ie7.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/font-awesome-ie7.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawsome.old/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/docs/jquery-1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-dk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/i18n/jquery.spectrum-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/paint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/docs/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/test/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/test/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/spectrum.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/spectrum.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/spectrum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/test/tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/docs/toc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/fontawesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/font-awesome/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" afterPath="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/calendario/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/calendario/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/showPics.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/showPics.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clinica2.iws" />
@@ -191,16 +88,25 @@
       <file leaf-file-name="editPic.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="37" selection-start="6726" selection-end="6726" vertical-scroll-proportion="-2.04" vertical-offset="3196" max-vertical-offset="5956">
+            <state line="113" column="27" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-4.52" vertical-offset="1695" max-vertical-offset="6347">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paint.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ElementosTagLib.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="191" column="35" selection-start="7428" selection-end="7428" vertical-scroll-proportion="0.29216152" vertical-offset="2848" max-vertical-offset="11246">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paint.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/paint.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="23" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.61637425" vertical-offset="408" max-vertical-offset="7383">
+            <state line="188" column="18" selection-start="6109" selection-end="6109" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="7383">
               <folding />
             </state>
           </provider>
@@ -248,11 +154,11 @@
         <option value="$PROJECT_DIR$/grails-app/views/cirugia/showPics.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/calendario/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/cirugia/list.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp" />
         <option value="$PROJECT_DIR$/web-app/js/paint.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" />
       </list>
     </option>
   </component>
@@ -571,7 +477,11 @@
       <created>1376932272184</created>
       <updated>1376932272184</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="paint!">
+      <created>1376946324100</created>
+      <updated>1376946324100</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -620,7 +530,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.6730769" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.67420816" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -706,20 +616,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../paint/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paint/test3 (Luz Unda's conflicted copy 2013-07-02).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3218">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/css/errors.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="9" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-0.05964912" vertical-offset="1360" max-vertical-offset="2674">
@@ -773,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="23" selection-start="7245" selection-end="7245" vertical-scroll-proportion="0.0" vertical-offset="2440" max-vertical-offset="11212">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="231" column="50" selection-start="10500" selection-end="10971" vertical-scroll-proportion="-11.24" vertical-offset="3365" max-vertical-offset="5922">
@@ -803,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="37" selection-start="6726" selection-end="6726" vertical-scroll-proportion="-2.04" vertical-offset="3196" max-vertical-offset="5956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/jquery/plugins/bgrins-spectrum-2c2010c/test/qunit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="68" selection-start="3172" selection-end="3172" vertical-scroll-proportion="0.35985747" vertical-offset="1516" max-vertical-offset="34417">
@@ -817,9 +699,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/imgs/Apellidos_Nombres/cirugia2/antes/04-07-2013_13-06.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/imgs/Apellidos_Nombres/cirugia2/antes/04-07-2013_13-06_overlay.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/paint.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="23" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.61637425" vertical-offset="408" max-vertical-offset="7383">
+        <state line="188" column="18" selection-start="6109" selection-end="6109" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="7383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="27" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-4.52" vertical-offset="1695" max-vertical-offset="6347">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="35" selection-start="7428" selection-end="7428" vertical-scroll-proportion="0.29216152" vertical-offset="2848" max-vertical-offset="11246">
           <folding />
         </state>
       </provider>
