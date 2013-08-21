@@ -1,5 +1,7 @@
 package clinica
 
+import clinica.seguridad.Usuario
+
 class Examen {
     GrupoExamen grupoExamen
     String nombre

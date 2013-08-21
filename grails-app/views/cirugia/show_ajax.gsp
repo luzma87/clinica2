@@ -77,6 +77,62 @@
         </div>
     </g:if>
 
+    <g:if test="${cirugiaInstance?.valor}">
+        <div class="control-group">
+            <div>
+                <span id="valor-label" class="control-label label label-inverse">
+                    Por cobrar
+                </span>
+            </div>
+
+            <div class="controls">
+
+                <span aria-labelledby="valor-label">
+                    <g:formatNumber number="${cirugiaInstance?.valor}" type="currency"/>
+                    hasta el <g:formatDate date="${cirugiaInstance?.fechaCobro}" format="dd-MM-yyyy"/>
+                </span>
+
+            </div>
+        </div>
+    </g:if>
+
+    <g:if test="${cirugiaInstance?.costo}">
+        <div class="control-group">
+            <div>
+                <span id="costo-label" class="control-label label label-inverse">
+                    Por pagar
+                </span>
+            </div>
+
+            <div class="controls">
+
+                <span aria-labelledby="costo-label">
+                    <g:formatNumber number="${cirugiaInstance?.costo}" type="currency"/>
+                    hasta el <g:formatDate date="${cirugiaInstance?.fechaPago}" format="dd-MM-yyyy"/>
+                </span>
+
+            </div>
+        </div>
+    </g:if>
+
+    <g:if test="${cirugiaInstance?.estadoItem}">
+        <div class="control-group">
+            <div>
+                <span id="estado-label" class="control-label label label-inverse">
+                    Estado
+                </span>
+            </div>
+
+            <div class="controls">
+
+                <span aria-labelledby="estado-label">
+                    ${cirugiaInstance.estadoItem.descripcion}
+                </span>
+
+            </div>
+        </div>
+    </g:if>
+
     <div class="control-group">
         <div>
             <span id="fotoAntes-label" class="control-label label label-inverse">

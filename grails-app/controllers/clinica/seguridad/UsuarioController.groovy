@@ -1,7 +1,10 @@
 package clinica.seguridad
 
-
-
+import clinica.Examen
+import clinica.Item
+import clinica.PacienteUsuario
+import clinica.Pago
+import clinica.ResultadoExamen
 import org.springframework.dao.DataIntegrityViolationException
 
 class UsuarioController extends clinica.seguridad.Shield {
@@ -148,6 +151,29 @@ class UsuarioController extends clinica.seguridad.Shield {
 
     def delete() {
         def usuarioInstance = Usuario.get(params.id)
+
+        def usuarios = Usuario.count()
+        if (usuarios == 1) {
+            flash.clase = "alert-error"
+            flash.message = "No se puede eliminar el único usuario existente. Cree uno nuevo para eliminar a " + usuarioInstance.usuario + "."
+            redirect(action: "list")
+            return
+        }
+
+        def pacientes = PacienteUsuario.countByUsuario(usuarioInstance)
+        def items = Item.findAllByUsuario(usuarioInstance)
+        def controles = items.count { it.tipoItem.codigo == "O" }
+        def cirugias = items.count { it.tipoItem.codigo == "I" }
+        def examenes = ResultadoExamen.countByUsuario(usuarioInstance)
+        def pagos = Pago.countByUsuario(usuarioInstance)
+
+        println pacientes
+        println items
+        println controles
+        println cirugias
+        println examenes
+        println pagos
+
         if (!usuarioInstance) {
             flash.clase = "alert-error"
             flash.message = "No se encontró Usuario con id " + params.id
@@ -163,7 +189,15 @@ class UsuarioController extends clinica.seguridad.Shield {
         }
         catch (DataIntegrityViolationException e) {
             flash.clase = "alert-error"
-            flash.message = "No se pudo eliminar Usuario " + (usuarioInstance.id ? usuarioInstance.usuario : "")
+            flash.message = "No se pudo eliminar Usuario " + (usuarioInstance.id ? usuarioInstance.usuario : "") + " pues tiene: "
+            def list = "<ul>"
+            list += pacientes > 0 ? "<li>${pacientes} paciente${pacientes == 1 ? '' : 's'}</li>" : ""
+            list += controles > 0 ? "<li>${controles} control${controles == 1 ? '' : 'es'}</li>" : ""
+            list += cirugias > 0 ? "<li>${cirugias} cirugía${cirugias == 1 ? '' : 's'}</li>" : ""
+            list += examenes > 0 ? "<li>${examenes} examen${examenes == 1 ? '' : 'es'}</li>" : ""
+            list += pagos > 0 ? "<li>${pagos} pago${pagos == 1 ? '' : 's'}</li>" : ""
+            list += "</ul>"
+            flash.message += list
             redirect(action: "list")
         }
     } //delete

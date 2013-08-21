@@ -4,7 +4,7 @@
     <head>
         <meta name="layout" content="main">
         <title>
-            Lista de Cirugías
+            Cirugías
         </title>
 
         <link rel="stylesheet" href="${resource(dir: 'js/jquery/plugins/fancyapps-fancyBox-0ffc358/source', file: 'jquery.fancybox.css?v=2.1.4')}" type="text/css" media="screen"/>
@@ -54,6 +54,9 @@
                         <g:sortableColumn property="duracionHoras" title="Duraci&oacute;n" style="width:63px;"/>
                         <g:sortableColumn property="clinica" title="Clínica" style="width:200px;"/>
                         <g:sortableColumn property="razon" title="Razón"/>
+                        <th>Por cobrar</th>
+                        <th>Por pagar</th>
+                        <g:sortableColumn property="estado" title="Estado"/>
                         <th>Fotos antes</th>
                         <th>Fotos después</th>
 
@@ -72,6 +75,15 @@
                             </td>
                             <td>${cirugiaInstance.clinica?.nombre}</td>
                             <td>${fieldValue(bean: cirugiaInstance, field: "razon")}</td>
+                            <td>
+                                <g:formatNumber number="${cirugiaInstance.valor}" type="currency"/> hasta el
+                                <g:formatDate date="${cirugiaInstance.fechaCobro}" format="dd-MM-yyyy"/>
+                            </td>
+                            <td>
+                                <g:formatNumber number="${cirugiaInstance.costo}" type="currency"/> hasta el
+                                <g:formatDate date="${cirugiaInstance.fechaPago}" format="dd-MM-yyyy"/>
+                            </td>
+                            <td>${cirugiaInstance.estadoItem.descripcion}</td>
                             <td class="img">
                                 <elm:imagenCirugia cirugia="${cirugiaInstance}" tipo="antes" class="mini"/>
                             </td>

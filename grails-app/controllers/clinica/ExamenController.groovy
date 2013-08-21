@@ -1,5 +1,6 @@
 package clinica
 
+import clinica.seguridad.Usuario
 import groovy.json.JsonBuilder
 import org.springframework.dao.DataIntegrityViolationException
 

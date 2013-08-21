@@ -4,7 +4,7 @@
     <head>
         <meta name="layout" content="main">
         <title>
-            Lista de Resultados de Exámenes
+             Resultados de Exámenes
         </title>
 
     </head>
@@ -201,7 +201,7 @@
                                 });
 
                                 $("#modalTitle-resultadoexamen").html("Eliminar Resultado de Examen");
-                                $("#modalBody-resultadoexamen").html("<p>¿Está seguro de querer eliminar esta ResultadoExamen?</p>");
+                                $("#modalBody-resultadoexamen").html("<p>¿Está seguro de querer eliminar este Resultado de Examen?</p>");
                                 $("#modalFooter-resultadoexamen").html("").append(btnCancel).append(btnDelete);
                                 $("#modal-resultadoexamen").modal("show");
                             }

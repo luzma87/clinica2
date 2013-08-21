@@ -99,6 +99,12 @@ class MenuTagLib {
                                         label: "Clínicas",
                                         icon: "<i class='icon-hospital'></i>"
                                 ],
+                                grupoExamen: [
+                                        controller: "grupoExamen",
+                                        action: "list",
+                                        label: "Grupos de examen",
+                                        icon: "<i class='icon-sitemap'></i>"
+                                ],
                                 examen: [
                                         controller: "examen",
                                         action: "list",
@@ -111,12 +117,12 @@ class MenuTagLib {
                                         label: "Cirugias",
                                         icon: "<i class='icon-tint'></i>"
                                 ],
-                                sexo: [
-                                        controller: "sexo",
-                                        action: "list",
-                                        label: "Sexo",
-                                        icon: "<i class='icon-github-alt'></i>"
-                                ],
+//                                sexo: [
+//                                        controller: "sexo",
+//                                        action: "list",
+//                                        label: "Sexo",
+//                                        icon: "<i class='icon-github-alt'></i>"
+//                                ],
                                 usuario: [
                                         controller: "usuario",
                                         action: "list",
@@ -200,6 +206,7 @@ class MenuTagLib {
         html += '<ul class="nav pull-right">'
         html += '<li id="liAlertas"><a href="' + g.createLink(controller: 'alerta', action: 'index') + '"><i class="icon-warning-sign"></i>'
         html += ' Alertas (<span id="spAlertas">' + cantAlertas + '</span>)</a></li>'
+        html += '<li><a href="' + g.createLink(controller: 'ayuda', action: 'index') + '"><i class="icon-question-sign"></i> Ayuda</a></li>'
         html += '<li><a href="' + g.createLink(controller: 'login', action: 'logout') + '"><i class="icon-off"></i> Salir</a></li>'
         html += '</ul>'
         html += '</div><!--/.nav-collapse -->'

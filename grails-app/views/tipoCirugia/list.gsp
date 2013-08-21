@@ -5,7 +5,7 @@
     <head>
         <meta name="layout" content="main">
         <title>
-            Lista de Tipo Cirugias
+             Tipo Cirugias
         </title>
 
 

@@ -4,7 +4,7 @@
     <head>
         <meta name="layout" content="main">
         <title>
-            Lista de Controles
+            Controles
         </title>
 
     </head>
@@ -49,8 +49,11 @@
                 <thead>
                     <tr>
                         <g:sortableColumn property="fecha" title="Fecha"/>
-                        <g:sortableColumn property="duracionHoras" title="Duracion"/>
-                        <g:sortableColumn property="observaciones" title="Observaciones"/>
+                        <g:sortableColumn property="duracionHoras" title="Duración"/>
+                        <th>Por cobrar</th>
+                        <th>Por pagar</th>
+                        <g:sortableColumn property="estado" title="Estado"/>
+                        <th>Observaciones</th>
                     </tr>
                 </thead>
                 <tbody class="paginate">
@@ -60,6 +63,15 @@
                             <td>
                                 ${controlInstance.duracionHoras.toString().padLeft(2, '0')}:${controlInstance.duracionMinutos.toString().padLeft(2, '0')}
                             </td>
+                            <td>
+                                <g:formatNumber number="${controlInstance.valor}" type="currency"/> hasta el
+                                <g:formatDate date="${controlInstance.fechaCobro}" format="dd-MM-yyyy"/>
+                            </td>
+                            <td>
+                                <g:formatNumber number="${controlInstance.costo}" type="currency"/> hasta el
+                                <g:formatDate date="${controlInstance.fechaPago}" format="dd-MM-yyyy"/>
+                            </td>
+                            <td>${controlInstance.estadoItem.descripcion}</td>
                             <td>${fieldValue(bean: controlInstance, field: "observaciones")}</td>
                         </tr>
                     </g:each>
@@ -203,7 +215,7 @@
 
                                 $("#modalHeader-control").removeClass("btn-edit btn-show btn-delete").addClass("btn-delete");
                                 $("#modalTitle-control").html("Eliminar Control");
-                                $("#modalBody-control").html("<p>¿Está seguro de querer eliminar esta Control?</p>");
+                                $("#modalBody-control").html("<p>¿Está seguro de querer eliminar este Control?</p>");
                                 $("#modalFooter-control").html("").append(btnCancel).append(btnDelete);
                                 $("#modal-control").modal("show");
                             }

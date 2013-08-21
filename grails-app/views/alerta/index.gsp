@@ -118,7 +118,6 @@
                     var $elm = $(this);
                     var tfs = $elm.children("input").length;
                     if ($elm.is("td") && tfs == 0) {
-
                         $(".editing").each(function () {
                             var nc = $(this).val();
                             $(this).parents("tr").data($(this).parent("td").data("tipo"), nc);

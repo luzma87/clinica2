@@ -65,7 +65,7 @@ class ResultadoExamenController extends clinica.seguridad.Shield {
             if (!resultadoExamenInstance) {
                 flash.clase = "alert-error"
                 flash.message = "No se encontró Resultado Examen con id " + params.id
-                redirect(action: 'list', id: usu.id)
+                redirect(action: 'list', id: resultadoExamenInstance.pacienteId)
                 return
             }//no existe el objeto
             resultadoExamenInstance.properties = params
@@ -78,7 +78,7 @@ class ResultadoExamenController extends clinica.seguridad.Shield {
             def str = "<h4>No se pudo guardar Resultado Examen " + (resultadoExamenInstance.id ? resultadoExamenInstance.id : "") + "</h4>"
             str += g.renderErrors(bean: resultadoExamenInstance)
             flash.message = str
-            redirect(action: 'list', id: usu.id)
+            redirect(action: 'list', id: resultadoExamenInstance.pacienteId)
             return
         }
 
@@ -89,7 +89,7 @@ class ResultadoExamenController extends clinica.seguridad.Shield {
             flash.clase = "alert-success"
             flash.message = "Se ha creado correctamente Resultado Examen " + resultadoExamenInstance.id
         }
-        redirect(action: 'list', id: usu.id)
+        redirect(action: 'list', id: resultadoExamenInstance.pacienteId)
     } //save
 
     def show_ajax() {
@@ -105,10 +105,11 @@ class ResultadoExamenController extends clinica.seguridad.Shield {
 
     def delete() {
         def resultadoExamenInstance = ResultadoExamen.get(params.id)
+        def paciente = resultadoExamenInstance.pacienteId
         if (!resultadoExamenInstance) {
             flash.clase = "alert-error"
             flash.message = "No se encontró Resultado Examen con id " + params.id
-            redirect(action: "list")
+            redirect(action: "list", id: paciente)
             return
         }
 
@@ -116,12 +117,12 @@ class ResultadoExamenController extends clinica.seguridad.Shield {
             resultadoExamenInstance.delete(flush: true)
             flash.clase = "alert-success"
             flash.message = "Se ha eliminado correctamente Resultado Examen " + resultadoExamenInstance.id
-            redirect(action: "list")
+            redirect(action: "list", id: paciente)
         }
         catch (DataIntegrityViolationException e) {
             flash.clase = "alert-error"
             flash.message = "No se pudo eliminar Resultado Examen " + (resultadoExamenInstance.id ? resultadoExamenInstance.id : "")
-            redirect(action: "list")
+            redirect(action: "list", id: paciente)
         }
     } //delete
 } //fin controller

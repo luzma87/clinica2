@@ -4,7 +4,7 @@
     <head>
         <meta name="layout" content="main">
         <title>
-            Lista de Grupo Examens
+             Grupo Examens
         </title>
     </head>
 
