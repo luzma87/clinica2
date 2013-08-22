@@ -167,12 +167,12 @@ class UsuarioController extends clinica.seguridad.Shield {
         def examenes = ResultadoExamen.countByUsuario(usuarioInstance)
         def pagos = Pago.countByUsuario(usuarioInstance)
 
-        println pacientes
-        println items
-        println controles
-        println cirugias
-        println examenes
-        println pagos
+//        println pacientes
+//        println items
+//        println controles
+//        println cirugias
+//        println examenes
+//        println pagos
 
         if (!usuarioInstance) {
             flash.clase = "alert-error"

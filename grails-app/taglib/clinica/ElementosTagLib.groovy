@@ -93,7 +93,7 @@ class ElementosTagLib {
                 html += '<td>'
                 html += g.formatDate(date: (tipo == "C" ? item.fechaCobro : item.fechaPago), format: "dd-MM-yyyy")
                 html += '</td>'
-                if (params.pagos == "1") {
+                if (attrs.pagos == "1") {
                     html += '<td>'
                     html += pagos.size()
                     if (pagos.size() > 0) {
@@ -184,16 +184,23 @@ class ElementosTagLib {
         w = ow
         h = oh
 
+//        println attrs
+//        println "w:" + w + "  h:" + h + "   ow:" + ow + "    oh:" + oh
+
         if (attrs.width && attrs.height) {
-            w = attrs.width
-            h = attrs.height
+//            println "1"
+            w = attrs.width.toDouble()
+            h = attrs.height.toDouble()
         } else if (attrs.width) {
-            w = attrs.width
+//            println "2"
+            w = attrs.width.toDouble()
             h = ((w * oh) / ow) + 5
         } else if (attrs.height) {
-            h = attrs.height
+//            println "3"
+            h = attrs.height.toDouble()
             w = (ow * h) / oh
         }
+//        println "w:" + w + "  h:" + h + "   ow:" + ow + "    oh:" + oh
 
         fileName = resource(dir: 'imgs/' + pathFolder, file: fileName)
         overlayFileName = resource(dir: 'imgs/' + pathFolder, file: overlayFileName)

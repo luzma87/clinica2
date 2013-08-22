@@ -30,6 +30,10 @@ class CirugiaController extends clinica.seguridad.Shield {
         def cirugia = Item.get(params.id)
         def file = params.file
         def tipo = params.tipo
+
+        def parts = file.split("\\.")
+        def overlay = parts[0] + "_overlay.png"
+
         def paciente = cirugia.paciente
         def nombreCarpeta = paciente.apellidos + " " + paciente.nombres + "/cirugia" + cirugia.id
         nombreCarpeta = nombreCarpeta.replaceAll(" ", "_")
@@ -40,7 +44,8 @@ class CirugiaController extends clinica.seguridad.Shield {
             dir.eachFile(FileType.FILES) { f ->
                 if (f.exists()) {
                     def nombre = f.getName()
-                    if (nombre == file) {
+                    if (nombre == file || nombre == overlay) {
+                        println "Eliminando " + nombre
                         f.delete()
                     }
                 }
@@ -66,6 +71,9 @@ class CirugiaController extends clinica.seguridad.Shield {
     }
 
     def mostrarFoto() {
+        if (params.url.contains("overlay")) {
+            params.url = params.url.replaceAll("_overlay\\.png", "\\.jpg")
+        }
         render elm.mostrarImagen(params)
     }
 

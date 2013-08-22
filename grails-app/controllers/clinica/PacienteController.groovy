@@ -130,6 +130,13 @@ class PacienteController extends clinica.seguridad.Shield {
 
     def delete() {
         def pacienteInstance = Paciente.get(params.id)
+
+        def alergias = AlergiaPaciente.countByPaciente(pacienteInstance)
+        def items = Item.findAllByPaciente(pacienteInstance)
+        def controles = items.count { it.tipoItem.codigo == "O" }
+        def cirugias = items.count { it.tipoItem.codigo == "I" }
+        def examenes = ResultadoExamen.countByPaciente(pacienteInstance)
+
         if (!pacienteInstance) {
             flash.clase = "alert-error"
             flash.message = "No se encontró Paciente con id " + params.id
@@ -145,7 +152,14 @@ class PacienteController extends clinica.seguridad.Shield {
         }
         catch (DataIntegrityViolationException e) {
             flash.clase = "alert-error"
-            flash.message = "No se pudo eliminar Paciente " + (pacienteInstance.id ? (pacienteInstance.nombres + " " + pacienteInstance.apellidos) : "")
+            flash.message = "No se pudo eliminar Paciente " + (pacienteInstance.id ? (pacienteInstance.nombres + " " + pacienteInstance.apellidos) : "") + " pues tiene:"
+            def list = "<ul>"
+            list += controles > 0 ? "<li>${controles} control${controles == 1 ? '' : 'es'}</li>" : ""
+            list += cirugias > 0 ? "<li>${cirugias} cirugía${cirugias == 1 ? '' : 's'}</li>" : ""
+            list += examenes > 0 ? "<li>${examenes} examen${examenes == 1 ? '' : 'es'}</li>" : ""
+            list += alergias > 0 ? "<li>${alergias} alergia${alergias == 1 ? '' : 's'}</li>" : ""
+            list += "</ul>"
+            flash.message += list
             redirect(action: "list")
         }
     } //delete

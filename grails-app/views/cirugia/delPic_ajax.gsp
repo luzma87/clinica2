@@ -27,10 +27,22 @@
             return false;
         });
 
-        var img = "<img src='" + $(this).attr("src") + "' style='height:300px;'/>";
+        $.ajax({
+            type    : "POST",
+            url     : "${createLink(action:'mostrarFoto')}",
+            data    : {
+                url    : $(this).attr("src"),
+                height : 300
+            },
+            success : function (msg) {
+                $("#modalBody-alert").html("Est&aacute; seguro de querer eliminar esta foto?<br/>" + msg);
+            }
+        });
+
+//        var img = "<img src='" + $(this).attr("src") + "' style='height:300px;'/>";
 
         $("#modalTitle-alert").html("Eliminar Foto");
-        $("#modalBody-alert").html("Est&aacute; seguro de querer eliminar esta foto?<br/>" + img);
+//        $("#modalBody-alert").html("Est&aacute; seguro de querer eliminar esta foto?<br/>" + img);
         $("#modalFooter-alert").html("").append(btnCancel).append(btnDelete);
         $("#modal-alert").modal("show");
     });

@@ -108,9 +108,8 @@
 
         <div class="vert">
             <div>
-                &nbsp;&nbsp;
                 Lápiz
-                &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 Fondo/Texto
             </div>
             <input type='text' class="colorpicker" data-tipo="line" title="Color lápiz"/>
@@ -192,7 +191,7 @@
             %{--</div>--}%
         </div>
 
-        <a href="#" id="fontSize">Font</a>
+        %{--<a href="#" id="fontSize">Font</a>--}%
 
         <script type="text/javascript" src="${resource(dir: 'js', file: 'paint.js')}"></script>
         <script type="text/javascript">
