@@ -12,8 +12,9 @@ class ResultadoExamenController extends clinica.seguridad.Shield {
     } //index
 
     def list() {
+        def usu = Usuario.get(session.user.id)
         def paciente = Paciente.get(params.id)
-        return [resultadoExamenInstanceList: ResultadoExamen.findAllByPaciente(paciente, params), params: params, paciente: paciente]
+        return [resultadoExamenInstanceList: ResultadoExamen.findAllByPacienteAndUsuario(paciente, usu, params), params: params, paciente: paciente]
     } //list
 
     def examenesGrupo() {

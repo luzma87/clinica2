@@ -31,6 +31,10 @@
     background-image : url(../images/contextMenu/stethoscope.png);
 }
 
+.context-menu-item.mn-icon-historial {
+    background-image : url(../images/contextMenu/clipboard_text.png);
+}
+
 .context-menu-item.mn-icon-showPic {
     background-image : url(../images/contextMenu/photo.png);
 }

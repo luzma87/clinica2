@@ -104,8 +104,15 @@ class CirugiaController extends clinica.seguridad.Shield {
     }
 
     def list() {
+        def usu = Usuario.get(session.user.id)
         def paciente = Paciente.get(params.id)
-        return [cirugiaInstanceList: Item.findAllByPacienteAndTipoItem(paciente, TipoItem.findByCodigo("I"), params), params: params, paciente: paciente]
+        def c = Item.createCriteria()
+        def list = c.list(params) {
+            eq("paciente", paciente)
+            eq("usuario", usu)
+            eq("tipoItem", TipoItem.findByCodigo("O"))
+        }
+        return [cirugiaInstanceList: list, params: params, paciente: paciente]
     } //list
 
     def listAll() {

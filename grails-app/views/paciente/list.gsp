@@ -226,6 +226,7 @@
                                 });
                             }
                         },
+                        "sep2"    : "---------",
                         "control" : {
                             name     : "Controles",
                             icon     : "control",
@@ -256,7 +257,17 @@
                                 location.href = url;
                             }
                         },
-                        "sep2"    : "---------",
+                        "historial" : {
+                            name     : "Historia clínica",
+                            icon     : "historial",
+                            callback : function (key, options) {
+                                var row = options.$trigger;
+                                var id = row.attr("id");
+                                var url = "${createLink(controller: 'historia', action: 'list')}/" + id
+                                location.href = url;
+                            }
+                        },
+                        "sep3"    : "---------",
                         "delete"  : {
                             name     : "Eliminar",
                             icon     : "delete",

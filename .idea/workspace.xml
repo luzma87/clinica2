@@ -1,21 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" line="383" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" line="390" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190a0302-f2ab-4e5e-87fb-3b7222139a91" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/anchor-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/angel_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/angel_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/angry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/angry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/bgcolor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/bidiltr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/bidirtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/showblocks/images/block_pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/broken_heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/broken_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/bulletedlist-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/bulletedlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/checkbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/confused_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/confused_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/copy-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/creatediv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/cry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/cry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/cut-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/devil_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/devil_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/images/dialog_sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/images/dialog_sides.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/images/dialog_sides_rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/embarrassed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/embarrassed_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/envelope.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/envelope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/find-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/form.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/hiddenfield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/horizontalrule.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dev/icons16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dev/icons32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/iframe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/imagebutton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/indent-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/indent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/justifyblock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/justifycenter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/justifyleft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/justifyright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/kiss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/kiss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/lightbulb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/assets/inlineall/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/maximize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/images/mini.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/newpage-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/newpage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/numberedlist-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/numberedlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/omg_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/omg_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/outdent-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/outdent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/pagebreak-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/pagebreak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/paste-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/pastefromword-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/pastefromword.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/pastetext-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/pastetext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/iframe/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/preview-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/redo-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/regular_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/regular_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/removeformat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/replace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/sad_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/sad_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/assets/sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/scayt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/select-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/selectall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/shades_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/shades_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/showblocks-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/showblocks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/smiley.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/source-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/source.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/specialchar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/spellchecker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/images/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/images/sprites_ie6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/strike.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/subscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/superscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/teeth_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/teeth_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/templates-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/templates.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/textarea-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/textarea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/textcolor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/textfield-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/textfield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/thumbs_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/thumbs_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/thumbs_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/thumbs_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/tongue_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/tongue_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/images/toolbar_start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/tounge_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/undo-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/icons/unlink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/wink_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/images/wink_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/clinica/Historia.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/HistoriaController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/appendto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/datafiltering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/dialog/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/div/dialogs/div.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/divreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/enterkey/enterkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/find/dialogs/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/historia/form_ajax.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/wysiwygarea/fullpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dev/icons16.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dev/icons32.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/iframe/dialogs/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/inlineall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/inlinebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/inlinetextarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/assets/uilanguages/languages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/historia/list.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/dev/locations.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/magicline/magicline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/dialog/assets/my_dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/htmlwriter/outputhtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/assets/posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/replacebyclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/replacebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/assets/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/sample_posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/historia/show_ajax.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/kama/skin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono/skin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moono_blue/skin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/skins/moonocolor/skin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/smiley/dialogs/smiley.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/tabindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/plugins/toolbar/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/uicolor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/uilanguages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/samples/xhtmlstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" afterPath="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/ControlController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/ControlController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/seguridad/UsuarioController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/seguridad/UsuarioController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/delPic_ajax.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/delPic_ajax.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/custom.css" afterPath="$PROJECT_DIR$/web-app/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/customContextMenu.css" afterPath="$PROJECT_DIR$/web-app/css/customContextMenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/control/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/control/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/paciente/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/paciente/list.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clinica2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
+    <file path="/Dummy.txt" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965865648" ignored="false" />
+    <file path="/a.dummy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384967861771" ignored="false" />
+    <file path="/list.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384972755330" ignored="false" />
+    <file path="/customContextMenu.css" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890085196" ignored="false" />
+    <file path="$PROJECT_DIR$/test/unit/clinica/HistoriaControllerTests.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890114510" ignored="false" />
+    <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/RubroController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384964060909" ignored="false" />
+    <file path="/RubroController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890316072" ignored="false" />
+    <file path="$USER_HOME$/grails/janus/janus/grails-app/views/rubro/rubroPrincipal.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965297002" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890611754" ignored="false" />
+    <file path="$PROJECT_DIR$/test/unit/clinica/HistoriaTests.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890942617" ignored="false" />
+    <file path="/Historia.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965815253" ignored="false" />
+    <file path="/HistoriaController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384972590681" ignored="false" />
+    <file path="/ControlController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384894413861" ignored="false" />
+    <file path="/CirugiaController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384894506502" ignored="false" />
+    <file path="/ResultadoExamenController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384894566021" ignored="false" />
+    <file path="/form_ajax.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384970420289" ignored="false" />
+    <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/ejecucion/PlanillaController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965297002" ignored="false" />
+    <file path="$USER_HOME$/grails/janus/janus/grails-app/views/planilla/configOrdenInicioObra.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965297002" ignored="false" />
+    <file path="/configOrdenInicioObra.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384964173738" ignored="false" />
+    <file path="$USER_HOME$/grails/janus/janus/grails-app/domain/janus/ejecucion/Pdfs.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965297002" ignored="false" />
+    <file path="/PlanillaController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384964194729" ignored="false" />
+    <file path="/Pdfs.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384964019518" ignored="false" />
+    <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/ReportesPlanillasController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965297002" ignored="false" />
+    <file path="/ReportesPlanillasController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965053027" ignored="false" />
+    <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/ReportesController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965297462" ignored="false" />
+    <file path="/config.js" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384970385275" ignored="false" />
+    <file path="/custom.css" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384968333001" ignored="false" />
+    <file path="/show_ajax.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384970675693" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,10 +491,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlertaController.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/seguridad/AlertaController.groovy">
+      <file leaf-file-name="list.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/control/list.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="109" selection-end="109" vertical-scroll-proportion="0.08182912" vertical-offset="0" max-vertical-offset="1562">
+            <state line="35" column="46" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.351418">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/historia/list.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="24" selection-start="4433" selection-end="4433" vertical-scroll-proportion="-7.9787235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_ajax.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/historia/show_ajax.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="47" selection-start="762" selection-end="762" vertical-scroll-proportion="-7.9787235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_ajax.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/historia/form_ajax.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="18" selection-start="1515" selection-end="1515" vertical-scroll-proportion="-14.297873">
+              <folding>
+                <marker date="1384970436102" expanded="true" signature="1071:1099" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CirugiaController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="29" selection-start="3319" selection-end="3319" vertical-scroll-proportion="-0.65217394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoriaController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/HistoriaController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="119" selection-start="2969" selection-end="2969" vertical-scroll-proportion="-7.6086955">
+              <folding>
+                <element signature="e#17#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="20" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,22 +578,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="db-console:/6f58217c/cbec8443-9e63-44e3-82b4-9477acf1c3b3/" />
-        <option value="$PROJECT_DIR$/grails-app/taglib/clinica/MenuTagLib.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/control/show_ajax.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/resultadoExamen/list.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/cirugia/list.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/control/list.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/control/listAll.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/cirugia/show_ajax.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/cirugia/delPic_ajax.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/seguridad/UsuarioController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" />
+        <option value="$PROJECT_DIR$/web-app/css/customContextMenu.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/paciente/list.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/ControlController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/clinica/Historia.groovy" />
+        <option value="$PROJECT_DIR$/web-app/css/custom.css" />
+        <option value="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/historia/form_ajax.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/historia/show_ajax.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/historia/list.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/HistoriaController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/control/list.gsp" />
       </list>
     </option>
   </component>
@@ -146,10 +606,9 @@
     <scope name="JS/CSS" pattern="file[clinica2]:web-app/css//*||file[clinica2]:web-app/js//*" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
     <option name="y" value="25" />
-    <option name="width" value="1926" />
-    <option name="height" value="1032" />
+    <option name="width" value="1920" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -207,14 +666,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/controllers/clinica/seguridad" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="fileColors" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../paint/test3.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -223,13 +682,18 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-app/js/jquery/plugins" />
       <recent name="$PROJECT_DIR$/web-app/css/bootstrap/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor" />
+      <recent name="$PROJECT_DIR$/web-app/js/jquery/plugins" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="clinica.seguridad" />
@@ -266,21 +730,6 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -291,12 +740,40 @@
       <setting name="launchBrowser" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -325,19 +802,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -384,7 +848,7 @@
     </configuration>
     <configuration default="false" name="Grails:clinica2" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="clinica2" />
-      <setting name="vmparams" value="-Dserver.port=8088" />
+      <setting name="vmparams" value="-Dserver.port=8082" />
       <setting name="cmdLine" value="run-app" />
       <setting name="depsClasspath" value="true" />
       <setting name="passParentEnv" value="true" />
@@ -464,7 +928,11 @@
       <created>1377120397947</created>
       <updated>1377120397947</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bug fixes">
+      <created>1377207244280</created>
+      <updated>1377207244280</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -488,41 +956,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="25" width="1926" height="1032" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1920" height="1030" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67081445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32579187" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.67420816" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32466063" sideWeight="0.49674267" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21413276" sideWeight="0.6187783" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24653149" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32579187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32579187" sideWeight="0.49674267" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24571735" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3812217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -602,159 +1070,103 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/resultadoExamen/list.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/clinica/ResultadoExamen.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="28" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.25341615" vertical-offset="459" max-vertical-offset="4477">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/control/listAll.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="21" selection-start="2245" selection-end="2387" vertical-scroll-proportion="-6.98" vertical-offset="671" max-vertical-offset="5140">
+        <state line="16" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.28089887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="1" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.7997573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/control/form_ajax.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="226" selection-end="314" vertical-scroll-proportion="0.075187966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/ControlController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="20" selection-start="2754" selection-end="2777" vertical-scroll-proportion="0.40632603">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/clinica/Historia.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="127" selection-end="127" vertical-scroll-proportion="0.16666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/historia/form_ajax.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="18" selection-start="1515" selection-end="1515" vertical-scroll-proportion="-14.297873">
+          <folding>
+            <marker date="1384970436102" expanded="true" signature="1071:1099" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="29" selection-start="3319" selection-end="3319" vertical-scroll-proportion="-0.65217394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/historia/show_ajax.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="47" selection-start="762" selection-end="762" vertical-scroll-proportion="-7.9787235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/HistoriaController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="119" selection-start="2969" selection-end="2969" vertical-scroll-proportion="-7.6086955">
+          <folding>
+            <element signature="e#17#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/historia/list.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="24" selection-start="4433" selection-end="4433" vertical-scroll-proportion="-7.9787235">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/control/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="97" selection-start="2884" selection-end="2884" vertical-scroll-proportion="-12.4" vertical-offset="570" max-vertical-offset="4715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="45" selection-start="4770" selection-end="4770" vertical-scroll-proportion="0.77272725" vertical-offset="1020" max-vertical-offset="6470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/control/show_ajax.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="11" selection-start="1444" selection-end="3133" vertical-scroll-proportion="0.8447205" vertical-offset="969" max-vertical-offset="2777" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/show_ajax.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="26" selection-start="3878" selection-end="3878" vertical-scroll-proportion="-2.38" vertical-offset="2040" max-vertical-offset="3933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/list.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="29" selection-start="4634" selection-end="4634" vertical-scroll-proportion="50.66" vertical-offset="4097" max-vertical-offset="6113">
-          <folding>
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'ajax'...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;background&quot;: 'rgba(77, 133, 166, 0.8)'...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;maxRows&quot;: 10...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;paciente&quot;: &quot;${paciente.id}&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;selector&quot;: '.fila'...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;sep1&quot;: &quot;---------&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Ver&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Editar&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;paciente&quot;: &quot;${paciente.id}&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Ver fotos&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Eliminar fotos&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Eliminar&quot;...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377119393994" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/delPic_ajax.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="797" selection-end="797" vertical-scroll-proportion="-3.4" vertical-offset="102" max-vertical-offset="1604">
-          <folding>
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{&quot;id&quot;: &quot;${cirugia.id}&quot;...}" />
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{&quot;height&quot;: 300...}" />
-            <marker date="1377188454638" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="31" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-19.125" vertical-offset="187" max-vertical-offset="8400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/editPic.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="0" selection-start="3054" selection-end="3054" vertical-scroll-proportion="-3.142857" vertical-offset="1645" max-vertical-offset="6303">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/paciente/form_ajax.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/seguridad/UsuarioController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="27" selection-start="6919" selection-end="6953" vertical-scroll-proportion="0.8543923" vertical-offset="2571" max-vertical-offset="4197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="33" selection-start="6152" selection-end="6152" vertical-scroll-proportion="0.81347775" vertical-offset="2010" max-vertical-offset="3585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="25" selection-start="3701" selection-end="3701" vertical-scroll-proportion="-0.14133017" vertical-offset="1581" max-vertical-offset="11365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cuenta/list.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.6757764" vertical-offset="357" max-vertical-offset="3304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/seguridad/AlertaController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="109" selection-end="109" vertical-scroll-proportion="0.08182912" vertical-offset="0" max-vertical-offset="1562">
+        <state line="35" column="46" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.351418">
           <folding />
         </state>
       </provider>
@@ -767,13 +1179,13 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="1540258379" />
-              <option name="pluginDependenciesCrc" value="343559055" />
+              <option name="pluginDependenciesCrc" value="776745354" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="$USER_HOME$/.grails/2.2.2/global-plugins" />
-                  <entry key="grails.project.plugins.dir" value="$USER_HOME$/.grails/2.2.2/projects/clinica2/plugins" />
-                  <entry key="grails.project.work.dir" value="$USER_HOME$/.grails/2.2.2/projects/clinica2" />
-                  <entry key="grails.work.dir" value="$USER_HOME$/.grails/2.2.2" />
+                  <entry key="grails.global.plugins.dir" value="$USER_HOME$/.grails/2.2.4/global-plugins" />
+                  <entry key="grails.project.plugins.dir" value="$USER_HOME$/.grails/2.2.4/projects/clinica2/plugins" />
+                  <entry key="grails.project.work.dir" value="$USER_HOME$/.grails/2.2.4/projects/clinica2" />
+                  <entry key="grails.work.dir" value="$USER_HOME$/.grails/2.2.4" />
                 </map>
               </option>
             </GrailsSettings>

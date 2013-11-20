@@ -65,7 +65,7 @@ class PacienteController extends clinica.seguridad.Shield {
     } //form_ajax
 
     def save() {
-        println params
+//        println params
         def usu = Usuario.get(session.user.id)
         if (params.fechaNacimiento) {
             params.fechaNacimiento = new Date().parse("dd-MM-yyyy", params.fechaNacimiento)
@@ -82,7 +82,7 @@ class PacienteController extends clinica.seguridad.Shield {
             pacienteInstance.properties = params
         }//es edit
         else {
-            println "CREATE!!"
+//            println "CREATE!!"
             pacienteInstance = new Paciente(params)
         } //es create
         if (!pacienteInstance.save(flush: true)) {

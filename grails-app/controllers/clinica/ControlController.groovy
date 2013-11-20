@@ -14,8 +14,15 @@ class ControlController extends clinica.seguridad.Shield {
     } //index
 
     def list() {
+        def usu = Usuario.get(session.user.id)
         def paciente = Paciente.get(params.id)
-        return [controlInstanceList: Item.findAllByPacienteAndTipoItem(paciente, TipoItem.findByCodigo("O"), params), params: params, paciente: paciente]
+        def c = Item.createCriteria()
+        def list = c.list(params) {
+            eq("paciente", paciente)
+            eq("usuario", usu)
+            eq("tipoItem", TipoItem.findByCodigo("O"))
+        }
+        return [controlInstanceList: list, params: params, paciente: paciente]
     } //list
 
     def listAll() {

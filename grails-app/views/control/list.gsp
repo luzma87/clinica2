@@ -32,6 +32,10 @@
                     <i class="icon-file"></i>
                     Crear  Control
                 </a>
+                <g:link controller="historia" action="list" id="${paciente.id}" class="btn">
+                    <i class="icon-folder-open"></i>
+                    Historia clínica
+                </g:link>
             </div>
 
             <div class="span3" id="busqueda-control"></div>

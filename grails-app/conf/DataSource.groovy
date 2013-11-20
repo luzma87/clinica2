@@ -59,8 +59,8 @@ environments {
     development {
         dataSource {
             dbCreate = "update"
-//            url = "jdbc:postgresql://localhost:5432/clinica2"
-            url = "jdbc:postgresql://10.0.0.3:5432/clinica2"
+            url = "jdbc:postgresql://localhost:5432/clinica2"
+//            url = "jdbc:postgresql://10.0.0.3:5432/clinica2"
             username = "postgres"
             password = "postgres"
         }
@@ -76,7 +76,7 @@ environments {
     production {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:postgresql://127.0.0.1:5432/clinica2"
+            url = "jdbc:postgresql://localhost:5432/clinica2"
             username = "postgres"
             password = "postgres"
         }
