@@ -79,7 +79,7 @@ class ElementosTagLib {
                 html += g.formatDate(date: item.fecha, format: "dd-MM-yyyy")
                 html += '</td>'
                 html += '<td>'
-                html += item.tipoItem.codigo == 'I' ? item.tipoCirugia.nombre + " (" + item.razon + ")" : item.observaciones
+                html += item.tipoItem.codigo == 'I' ? (item.tipoCirugia.nombre + " (" + item.razon + ")") : (item.observaciones ?: "")
                 html += '</td>'
                 html += '<td class="taRight">'
                 html += g.formatNumber(number: tipo == 'C' ? item.valor : item.costo, maxFractionDigits: "2", minFractionDigits: "2")

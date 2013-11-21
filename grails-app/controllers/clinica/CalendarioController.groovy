@@ -35,30 +35,40 @@ class CalendarioController extends clinica.seguridad.Shield {
             jsonString += "},"
 
             if (cirugia.fechaPago) {
-                strDate = cirugia.fechaPago.format("yyyy") + "," + (cirugia.fechaPago.format("MM").toInteger() - 1) + "," + cirugia.fechaPago.format("dd,HH,mm")
-                jsonString += "{"
-                jsonString += '"id":"i' + cirugia.id + '",'
-                jsonString += '"iid":' + cirugia.id + ','
-                jsonString += '"title":" Pagar",'
-                jsonString += '"start": new Date(' + strDate + '),'
-                jsonString += '"allDay": true,'
-                jsonString += '"color": "' + cirugia.tipoItem.color2 + '",'
-                jsonString += '"tipo":"' + cirugia.tipoItem.codigo + '",'
-                jsonString += '"className":"' + cirugia.tipoItem.codigo + '"'
-                jsonString += "},"
+                def monto = cirugia.costo
+                def pagado = Pago.findAllByItemAndTipo(cirugia, "P").sum { it.valor }
+                def total = monto - pagado
+                if (total > 0) {
+                    strDate = cirugia.fechaPago.format("yyyy") + "," + (cirugia.fechaPago.format("MM").toInteger() - 1) + "," + cirugia.fechaPago.format("dd,HH,mm")
+                    jsonString += "{"
+                    jsonString += '"id":"i' + cirugia.id + '",'
+                    jsonString += '"iid":' + cirugia.id + ','
+                    jsonString += '"title":" Pagar: $' + g.formatNumber(number: total, maxFractionDigits: 2, minFractionDigits: 2) + '",'
+                    jsonString += '"start": new Date(' + strDate + '),'
+                    jsonString += '"allDay": true,'
+                    jsonString += '"color": "' + cirugia.tipoItem.color2 + '",'
+                    jsonString += '"tipo":"' + cirugia.tipoItem.codigo + '",'
+                    jsonString += '"className":"' + cirugia.tipoItem.codigo + '"'
+                    jsonString += "},"
+                }
             }
             if (cirugia.fechaCobro) {
-                strDate = cirugia.fechaCobro.format("yyyy") + "," + (cirugia.fechaCobro.format("MM").toInteger() - 1) + "," + cirugia.fechaCobro.format("dd,HH,mm")
-                jsonString += "{"
-                jsonString += '"id":"i' + cirugia.id + '",'
-                jsonString += '"iid":' + cirugia.id + ','
-                jsonString += '"title":" Cobrar",'
-                jsonString += '"start": new Date(' + strDate + '),'
-                jsonString += '"allDay": true,'
-                jsonString += '"color": "' + cirugia.tipoItem.color2 + '",'
-                jsonString += '"tipo":"' + cirugia.tipoItem.codigo + '",'
-                jsonString += '"className":"' + cirugia.tipoItem.codigo + '"'
-                jsonString += "},"
+                def monto = cirugia.valor
+                def pagado = Pago.findAllByItemAndTipo(cirugia, "C").sum { it.valor }
+                def total = monto - pagado
+                if (total > 0) {
+                    strDate = cirugia.fechaCobro.format("yyyy") + "," + (cirugia.fechaCobro.format("MM").toInteger() - 1) + "," + cirugia.fechaCobro.format("dd,HH,mm")
+                    jsonString += "{"
+                    jsonString += '"id":"i' + cirugia.id + '",'
+                    jsonString += '"iid":' + cirugia.id + ','
+                    jsonString += '"title":" Cobrar: $' + g.formatNumber(number: total, maxFractionDigits: 2, minFractionDigits: 2) + '",'
+                    jsonString += '"start": new Date(' + strDate + '),'
+                    jsonString += '"allDay": true,'
+                    jsonString += '"color": "' + cirugia.tipoItem.color2 + '",'
+                    jsonString += '"tipo":"' + cirugia.tipoItem.codigo + '",'
+                    jsonString += '"className":"' + cirugia.tipoItem.codigo + '"'
+                    jsonString += "},"
+                }
             }
         }
 

@@ -51,6 +51,7 @@ class AlergiaPacienteController extends clinica.seguridad.Shield {
         params.alergia = alergia
         def paciente = Paciente.get(params.paciente)
         params.paciente = paciente
+        paciente.addToAlergias(alergia)
         def alergiaPacienteInstance
         if (params.id) {
             alergiaPacienteInstance = AlergiaPaciente.get(params.id)

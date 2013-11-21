@@ -110,7 +110,7 @@ class CirugiaController extends clinica.seguridad.Shield {
         def list = c.list(params) {
             eq("paciente", paciente)
             eq("usuario", usu)
-            eq("tipoItem", TipoItem.findByCodigo("O"))
+            eq("tipoItem", TipoItem.findByCodigo("I"))
         }
         return [cirugiaInstanceList: list, params: params, paciente: paciente]
     } //list
