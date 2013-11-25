@@ -35,6 +35,10 @@
     background-image : url(../images/contextMenu/clipboard_text.png);
 }
 
+.context-menu-item.mn-icon-resumen {
+    background-image : url(../images/contextMenu/summary.png);
+}
+
 .context-menu-item.mn-icon-showPic {
     background-image : url(../images/contextMenu/photo.png);
 }

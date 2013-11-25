@@ -4,7 +4,7 @@
     <head>
         <meta name="layout" content="main">
         <title>
-             Pacientes
+            Pacientes
         </title>
 
     </head>
@@ -152,7 +152,7 @@
                 $.contextMenu({
                     selector : '.fila',
                     items    : {
-                        "show"    : {
+                        "show"      : {
                             name     : "Ver",
                             icon     : "show",
                             callback : function (key, options) {
@@ -174,7 +174,7 @@
                                 });
                             }
                         },
-                        "edit"    : {
+                        "edit"      : {
                             name     : "Editar",
                             icon     : "edit",
                             callback : function (key, options) {
@@ -203,8 +203,8 @@
                                 });
                             }
                         },
-                        "sep1"    : "---------",
-                        "alergia" : {
+                        "sep1"      : "---------",
+                        "alergia"   : {
                             name     : "Alergias",
                             icon     : "alergia",
                             callback : function (key, options) {
@@ -218,6 +218,9 @@
                                     },
                                     success : function (msg) {
                                         var btnCancel = $('<a href="#" data-dismiss="modal" class="btn">Cerrar</a>');
+                                        btnCancel.click(function () {
+                                            location.reload(true);
+                                        });
                                         $("#modalTitle-paciente").html("Alergias Paciente");
                                         $("#modalBody-paciente").html(msg);
                                         $("#modalFooter-paciente").html("").append(btnCancel);
@@ -226,8 +229,8 @@
                                 });
                             }
                         },
-                        "sep2"    : "---------",
-                        "control" : {
+                        "sep2"      : "---------",
+                        "control"   : {
                             name     : "Controles",
                             icon     : "control",
                             callback : function (key, options) {
@@ -237,7 +240,7 @@
                                 location.href = url;
                             }
                         },
-                        "examen"  : {
+                        "examen"    : {
                             name     : "Exámenes",
                             icon     : "examen",
                             callback : function (key, options) {
@@ -247,7 +250,7 @@
                                 location.href = url;
                             }
                         },
-                        "cirugia" : {
+                        "cirugia"   : {
                             name     : "Cirugías",
                             icon     : "cirugia",
                             callback : function (key, options) {
@@ -267,8 +270,19 @@
                                 location.href = url;
                             }
                         },
-                        "sep3"    : "---------",
-                        "delete"  : {
+                        "sep3"      : "---------",
+                        "resumen"   : {
+                            name     : "Resumen",
+                            icon     : "resumen",
+                            callback : function (key, options) {
+                                var row = options.$trigger;
+                                var id = row.attr("id");
+                                var url = "${createLink( action: 'resumen')}/" + id
+                                location.href = url;
+                            }
+                        },
+                        "sep4"      : "---------",
+                        "delete"    : {
                             name     : "Eliminar",
                             icon     : "delete",
                             callback : function (key, options) {

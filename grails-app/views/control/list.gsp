@@ -68,12 +68,12 @@
                                 ${controlInstance.duracionHoras.toString().padLeft(2, '0')}:${controlInstance.duracionMinutos.toString().padLeft(2, '0')}
                             </td>
                             <td>
-                                <g:formatNumber number="${controlInstance.valor}" type="currency"/> hasta el
-                                <g:formatDate date="${controlInstance.fechaCobro}" format="dd-MM-yyyy"/>
+                                <g:formatNumber number="${controlInstance.porCobrar}" type="currency"/> hasta el
+                                <g:formatDate date="${controlInstance.fechaCobro}" format="dd-MM-yyyy"/> (de <g:formatNumber number="${controlInstance.valor}" type="currency"/>)
                             </td>
                             <td>
-                                <g:formatNumber number="${controlInstance.costo}" type="currency"/> hasta el
-                                <g:formatDate date="${controlInstance.fechaPago}" format="dd-MM-yyyy"/>
+                                <g:formatNumber number="${controlInstance.porPagar}" type="currency"/> hasta el
+                                <g:formatDate date="${controlInstance.fechaPago}" format="dd-MM-yyyy"/> (de <g:formatNumber number="${controlInstance.costo}" type="currency"/>)
                             </td>
                             <td>${controlInstance.estadoItem.descripcion}</td>
                             <td>${fieldValue(bean: controlInstance, field: "observaciones")}</td>

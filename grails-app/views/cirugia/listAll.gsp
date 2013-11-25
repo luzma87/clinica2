@@ -85,12 +85,12 @@
                             <td>${cirugiaInstance.clinica?.nombre}</td>
                             <td>${fieldValue(bean: cirugiaInstance, field: "razon")}</td>
                             <td>
-                                <g:formatNumber number="${cirugiaInstance.valor}" type="currency"/> hasta el
-                                <g:formatDate date="${cirugiaInstance.fechaCobro}" format="dd-MM-yyyy"/>
+                                <g:formatNumber number="${cirugiaInstance.porCobrar}" type="currency"/> hasta el
+                                <g:formatDate date="${cirugiaInstance.fechaCobro}" format="dd-MM-yyyy"/> (de <g:formatNumber number="${cirugiaInstance.valor}" type="currency"/>)
                             </td>
                             <td>
-                                <g:formatNumber number="${cirugiaInstance.costo}" type="currency"/> hasta el
-                                <g:formatDate date="${cirugiaInstance.fechaPago}" format="dd-MM-yyyy"/>
+                                <g:formatNumber number="${cirugiaInstance.porPagar}" type="currency"/> hasta el
+                                <g:formatDate date="${cirugiaInstance.fechaPago}" format="dd-MM-yyyy"/> (de <g:formatNumber number="${cirugiaInstance.costo}" type="currency"/>)
                             </td>
                             <td>${cirugiaInstance.estadoItem.descripcion}</td>
                             <td class="img">

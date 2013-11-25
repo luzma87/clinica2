@@ -14,6 +14,39 @@ class PacienteController extends clinica.seguridad.Shield {
         redirect(action: "list", params: params)
     } //index
 
+    def resumen() {
+        def paciente = Paciente.get(params.id)
+        def usu = Usuario.get(session.user.id)
+        def c = Historia.createCriteria()
+        def historias = c.list(params) {
+            eq("paciente", paciente)
+            eq("usuario", usu)
+            order("fecha", "desc")
+        }
+
+        def alergias = AlergiaPaciente.findAllByPaciente(paciente, [sort: "fecha", order: "desc"])
+
+        c = Item.createCriteria()
+        def controles = c.list(params) {
+            eq("paciente", paciente)
+            eq("usuario", usu)
+            eq("tipoItem", TipoItem.findByCodigo("O"))
+            order("fecha", "desc")
+        }
+
+        def examenes = ResultadoExamen.findAllByPacienteAndUsuario(paciente, usu, [sort: "fecha", order: "desc"])
+
+        c = Item.createCriteria()
+        def cirugias = c.list(params) {
+            eq("paciente", paciente)
+            eq("usuario", usu)
+            eq("tipoItem", TipoItem.findByCodigo("I"))
+            order("fecha", "desc")
+        }
+
+        return [paciente: paciente, historias: historias, alergias: alergias, controles: controles, examenes: examenes, cirugias: cirugias]
+    }
+
     def list() {
         def usu = Usuario.get(session.user.id)
         def pacientes = PacienteUsuario.findAllByUsuario(usu).paciente

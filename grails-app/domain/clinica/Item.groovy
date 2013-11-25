@@ -80,4 +80,24 @@ class Item {
 
         estadoItem(blank: false, nullable: false)
     }
+
+    def getPorCobrar() {
+        def val = this.valor
+        def pagos = Pago.withCriteria {
+            eq("item", this)
+            eq("tipo", "C")
+        }
+        pagos = pagos.size() > 0 ? pagos.sum { it.valor } : 0
+        return val - pagos
+    }
+
+    def getPorPagar() {
+        def val = this.costo
+        def pagos = Pago.withCriteria {
+            eq("item", this)
+            eq("tipo", "P")
+        }
+        pagos = pagos.size() > 0 ? pagos.sum { it.valor } : 0
+        return val - pagos
+    }
 }

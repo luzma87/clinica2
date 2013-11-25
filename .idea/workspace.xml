@@ -5,19 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190a0302-f2ab-4e5e-87fb-3b7222139a91" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/AlergiaPacienteController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/AlergiaPacienteController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/CalendarioController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/CalendarioController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" afterPath="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/contextMenu/clipboard_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/contextMenu/notebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/contextMenu/summary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/paciente/resumen.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/clinica/Item.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/clinica/Item.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/custom.css" afterPath="$PROJECT_DIR$/web-app/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/customContextMenu.css" afterPath="$PROJECT_DIR$/web-app/css/customContextMenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/control/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/control/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/paciente/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/paciente/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/control/listAll.gsp" afterPath="$PROJECT_DIR$/grails-app/views/control/listAll.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clinica2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385051545878" ignored="false" />
+    <file path="/Dummy.txt" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385399049169" ignored="false" />
     <file path="/a.dummy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384967861771" ignored="false" />
-    <file path="/list.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384972755330" ignored="false" />
-    <file path="/customContextMenu.css" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890085196" ignored="false" />
+    <file path="/list.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385403103913" ignored="false" />
+    <file path="/customContextMenu.css" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385399357006" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/clinica/HistoriaControllerTests.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890114510" ignored="false" />
     <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/RubroController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384964060909" ignored="false" />
     <file path="/RubroController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384890316072" ignored="false" />
@@ -40,13 +51,16 @@
     <file path="/ReportesPlanillasController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384965053027" ignored="false" />
     <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/ReportesController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385052222172" ignored="false" />
     <file path="/config.js" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384970385275" ignored="false" />
-    <file path="/custom.css" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384968333001" ignored="false" />
+    <file path="/custom.css" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385401078987" ignored="false" />
     <file path="/show_ajax.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1384970675693" ignored="false" />
     <file path="/AlergiaPacienteController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385051855315" ignored="false" />
     <file path="/CalendarioController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385052600323" ignored="false" />
     <file path="$USER_HOME$/grails/janus/janus/grails-app/domain/janus/Obra.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385052222172" ignored="false" />
     <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/Reportes5Controller.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385052222172" ignored="false" />
     <file path="$USER_HOME$/grails/janus/janus/grails-app/controllers/janus/ObraController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385052222172" ignored="false" />
+    <file path="/PacienteController.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385408113376" ignored="false" />
+    <file path="/resumen.gsp" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385408162592" ignored="false" />
+    <file path="/Item.groovy" changelist="190a0302-f2ab-4e5e-87fb-3b7222139a91" time="1385403053306" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,19 +134,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalendarioController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/CalendarioController.groovy">
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="41" selection-start="3004" selection-end="3004" vertical-scroll-proportion="-27.173914">
+            <state line="17" column="55" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElementosTagLib.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy">
+      <file leaf-file-name="PacienteController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.5147929">
+            <state line="26" column="97" selection-start="806" selection-end="806" vertical-scroll-proportion="-15.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/clinica/Item.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resumen.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/paciente/resumen.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="180" column="34" selection-start="9014" selection-end="9014" vertical-scroll-proportion="0.6309963">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultadoExamenController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="111" selection-start="496" selection-end="562" vertical-scroll-proportion="-9.782609">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/list.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="16" selection-start="6240" selection-end="6654" vertical-scroll-proportion="22.914894">
               <folding />
             </state>
           </provider>
@@ -158,22 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/ControlController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/clinica/Historia.groovy" />
-        <option value="$PROJECT_DIR$/web-app/css/custom.css" />
-        <option value="$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/config.js" />
-        <option value="$PROJECT_DIR$/grails-app/views/historia/form_ajax.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/historia/show_ajax.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/historia/list.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/HistoriaController.groovy" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/grails-app/views/control/list.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/clinica/AlergiaPacienteController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/clinica/CalendarioController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/web-app/css/customContextMenu.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/paciente/list.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/custom.css" />
+        <option value="$PROJECT_DIR$/grails-app/domain/clinica/Item.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/control/list.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/control/listAll.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/cirugia/list.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/paciente/resumen.gsp" />
       </list>
     </option>
   </component>
@@ -186,9 +239,10 @@
     <scope name="JS/CSS" pattern="file[clinica2]:web-app/css//*||file[clinica2]:web-app/js//*" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
     <option name="y" value="25" />
-    <option name="width" value="1920" />
-    <option name="height" value="1030" />
+    <option name="width" value="1926" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -231,7 +285,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -242,20 +296,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clinica2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/controllers/clinica/seguridad" />
@@ -266,18 +307,19 @@
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="TODO_SCOPE" value="Project Files" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -323,21 +365,6 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -348,12 +375,40 @@
       <setting name="launchBrowser" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -382,19 +437,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -529,7 +571,11 @@
       <created>1384972849776</created>
       <updated>1384972849776</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bug fix">
+      <created>1385052664697</created>
+      <updated>1385052664697</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -553,8 +599,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1030" extended-state="0" />
-    <editor active="true" />
+    <frame x="-3" y="25" width="1926" height="1032" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -566,7 +612,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32579187" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21413276" sideWeight="0.6187783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15154749" sideWeight="0.6207675" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -577,17 +623,17 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19111349" sideWeight="0.6187783" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3812217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3792325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32466063" sideWeight="0.49674267" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32367972" sideWeight="0.49674267" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -636,7 +682,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregado historia clinica + bug fix en las listas de controles y cirugias" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -659,6 +705,7 @@
     <MESSAGE value="paint! con cambio de tam de letra" />
     <MESSAGE value="bug fixes" />
     <MESSAGE value="agregado historia clinica + bug fix en las listas de controles y cirugias" />
+    <MESSAGE value="bug fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -670,122 +717,125 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grails-app/views/historia/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="24" selection-start="4433" selection-end="4433" vertical-scroll-proportion="0.0">
+        <state line="47" column="36" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-6.382979">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/HistoriaController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="73" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/control/list.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="46" selection-start="1168" selection-end="1168" vertical-scroll-proportion="-0.31914893">
+        <state line="22" column="42" selection-start="651" selection-end="677" vertical-scroll-proportion="-12.434783">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/jquery/plugins/ckeditor/config.js">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/AlergiaController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="40" selection-start="934" selection-end="934" vertical-scroll-proportion="0.7485605">
+        <state line="14" column="8" selection-start="309" selection-end="309" vertical-scroll-proportion="0.25089607">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/CirugiaController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="51" selection-start="3372" selection-end="3372" vertical-scroll-proportion="-18.913044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.2608695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/clinica/Paciente.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="8" selection-start="2194" selection-end="2194" vertical-scroll-proportion="1.3518518">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/paciente/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="56" selection-start="4368" selection-end="4368" vertical-scroll-proportion="-12.446809">
+        <state line="279" column="73" selection-start="14063" selection-end="14063" vertical-scroll-proportion="0.59409595">
           <folding>
-            <marker date="1384890757045" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1384890757045" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1384890757045" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1384890757045" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1384890757045" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1385399541315" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1385399541315" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1385399541315" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1385399541315" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1385399541315" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/alergiaPaciente/list_ajax.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="45" selection-start="1869" selection-end="1869" vertical-scroll-proportion="1.0021096">
+        <state line="17" column="55" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/AlergiaPacienteController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="14" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.81526107">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/clinica/Pago.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/alergia/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/ControlController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="471" selection-end="670" vertical-scroll-proportion="-11.086957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/clinica/Item.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/PagoController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/control/listAll.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="120" selection-end="120" vertical-scroll-proportion="0.07185629">
+        <state line="80" column="176" selection-start="3808" selection-end="3808" vertical-scroll-proportion="-11.170213">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/CuentaController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/control/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="57" selection-end="57" vertical-scroll-proportion="-2.6086957">
+        <state line="70" column="32" selection-start="2747" selection-end="3005" vertical-scroll-proportion="-5.744681">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/cuenta/list.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/listAll.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="23" selection-start="1928" selection-end="1928" vertical-scroll-proportion="-4.1489363">
-          <folding />
+        <state line="96" column="32" selection-start="4910" selection-end="4985" vertical-scroll-proportion="0.6088561">
+          <folding>
+            <marker date="1385403420460" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1385403420460" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1385403420460" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/CalendarioController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/cirugia/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="41" selection-start="3004" selection-end="3004" vertical-scroll-proportion="-27.173914">
+        <state line="140" column="16" selection-start="6240" selection-end="6654" vertical-scroll-proportion="22.914894">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/taglib/clinica/ElementosTagLib.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.5147929">
+        <state line="221" column="8" selection-start="8616" selection-end="8616" vertical-scroll-proportion="0.33293977">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/ResultadoExamenController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="111" selection-start="496" selection-end="562" vertical-scroll-proportion="-9.782609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clinica/PacienteController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="97" selection-start="806" selection-end="806" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/paciente/resumen.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="34" selection-start="9014" selection-end="9014" vertical-scroll-proportion="0.6309963">
           <folding />
         </state>
       </provider>
@@ -846,7 +896,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>grails-2.1.1</last-edited>
+          <last-edited>grails-2.2.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

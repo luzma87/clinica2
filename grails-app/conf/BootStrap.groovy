@@ -6,16 +6,16 @@ import clinica.seguridad.Usuario
 class BootStrap {
 
     def init = { servletContext ->
-        def su = Usuario.findByUsuario("root")
+        def su = Usuario.findByUsuario("admin")
         if (!su) {
-            println "creando usuario root"
+            println "creando usuario admin"
             su = new Usuario()
-            su.nombres = "ROOT"
-            su.usuario = "root"
+            su.nombres = "Administrador"
+            su.usuario = "admin"
             su.password = "123".encodeAsMD5()
             su.email = "luzma_87@yahoo.com"
             if (!su.save(flush: true)) {
-                println "no se pudo crear usuario ROOT: "
+                println "no se pudo crear usuario admin: "
                 println su.errors
             }
         }
